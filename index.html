@@ -3,24 +3,61 @@
     <head>
         <meta charset="utf-8">
         <title>Coming soon.</title>
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
         <style>
-            body {
-                background-color: rgb(211, 225, 227);
-                font-family: Roboto, sans-serif;
-            }
             
-            .real {
-                color:darkslateblue;
+            body {
+                text-align: center;
+                background-color: rgb(238, 229, 233);
+                font-family: "Open Sans", sans-serif;
+                font-weight: normal;
+                color: rgb(8, 65, 92);
+            }
+
+            h1 {
+                font-size: 60px;
+                font-family: "Alata", sans-serif;
+
+            }
+
+            h3 {
+                font-family: "Open Sans", sans-serif;
+                font-weight: normal;
+            }
+
+            #sub-name {
+                position: relative;
+                top: -30px;
+            }
+
+            #headshot {
+                border-radius: 50%;
+                border-style: solid;
+                border-color: rgb(107, 129, 140);
+                border-width: 10px;
+                position: relative;
+                top: -20px;
+            }
+
+            .block {
+                float: left;
             }
         </style>
     </head>
     <body>
         
         <!-- This is a comment!-->
-        <h1>Welcome.</h1>
+        <h1 id = "name">Elyse Cornwall</h1>
+        <h3 id = "sub-name">Student. Teacher. Engineer.</h3>
         
-        <img src="https://avatars.sched.co/2/c7/5174198/avatar.jpg" 
-        alt="My headshot" width="200">
+        <img id = "headshot" src="https://avatars.sched.co/2/c7/5174198/avatar.jpg" 
+        alt="Elyse's headshot" width="200">
+
+        <div>
+            <h1 class = "block">Resume.</h2>
+            <h1 class = "block">Socials.</h2>
+            <h1 class = "block"> Contact.</h2>
+        </div>
 
         <h2>What's this?</h2>
         <p>I'm an undergrad coder learning to build my 
